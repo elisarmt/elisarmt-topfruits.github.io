@@ -1,0 +1,662 @@
+.flat-mega-menu a,
+.flat-mega-menu img,
+.flat-mega-menu li,
+.flat-mega-menu p,
+.flat-mega-menu ul {
+    margin: 0;
+    padding: 0;
+    display: block;
+    line-height: normal;
+    text-decoration: none;
+    list-style: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.flat-mega-menu {
+    z-index: 999;
+    max-width: 1280px;
+    min-height: 60px;
+    width: 100%;
+    min-width: 180px;
+    margin: 0 auto;
+    font-size: 1em
+}
+
+.flat-mega-menu>ul {
+    float: left;
+    width: 100%;
+    min-height: 60px;
+    background-color: #244E62
+}
+
+.flat-mega-menu>ul>li {
+    float: left;
+    min-height: 60px;
+    line-height: 60px;
+    color: #fff;
+    border-left: 1px solid;
+    border-left-color: #244E62;
+    min-width: 10%
+}
+
+.flat-mega-menu>ul>li>a {
+    line-height: 60px;
+    color: #fff;
+    text-align: center;
+    width: 100%;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 1em
+}
+
+.flat-mega-menu>ul>.title>a {
+    text-transform: uppercase;
+    font-size: 1.4em;
+    line-height: 60px;
+    padding-left: 20px;
+    text-align: left;
+    padding-right: 20px
+}
+
+.flat-mega-menu>ul>.title {
+    border-left: none;
+    min-width: 25%
+}
+
+.flat-mega-menu,
+.flat-mega-menu ul .login-form {
+    position: relative
+}
+
+.flat-mega-menu .fa-user tbody,
+.flat-mega-menu .login-form table,
+.flat-mega-menu .login-form tbody,
+.flat-mega-menu .search-bar table {
+    width: 100%
+}
+
+.flat-mega-menu .login-form input[type=submit] {
+    border: 1px solid rgba(0, 0, 0, .15);
+    border-radius: 3px;
+    opacity: .81;
+    box-shadow: inset .5px .866px 0 0 rgba(255, 248, 68, .106);
+    background: #244E62;
+    color: #fff;
+    height: 35px;
+    width: 100px;
+    font-size: 1em;
+    font-family: "nunito regular";
+    margin-top: 10px;
+    cursor: pointer;
+    outline: 0
+}
+
+.flat-mega-menu .login-form input[type=submit]:hover {
+    opacity: 1
+}
+
+.flat-mega-menu .login-form input[type=checkbox] {
+    float: left;
+    display: block;
+    height: 35px;
+    width: auto;
+    cursor: pointer;
+    outline: 0;
+    background-color: #fff
+}
+
+.flat-mega-menu .login-form label {
+    color: #7d7d7d;
+    font-size: .8em;
+    font-weight: 400;
+    height: 35px;
+    margin: 10px 0 0;
+    line-height: 35px;
+    white-space: nowrap;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    -moz-user-select: none;
+    -o-user-select: none
+}
+
+.flat-mega-menu .login-form ul {
+    position: absolute;
+    right: 0;
+    width: 300px;
+    padding: 15px 15px 10px
+}
+
+.flat-mega-menu ul .login-form,
+.flat-mega-menu ul .search-bar {
+    min-width: 6%;
+    text-align: center;
+    cursor: pointer;
+    float: right;
+    padding-left: 10px;
+    padding-right: 10px
+}
+
+.flat-mega-menu .search-bar ul {
+    position: absolute;
+    right: 0;
+    width: 50%
+}
+
+.flat-mega-menu .search-bar table tr td:last-child {
+    width: 120px
+}
+
+.flat-mega-menu .search-bar ul input[type=text] {
+    background-color: #fff;
+    box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .55);
+    -webkit-box-shadow: inset 0 0 2px 0 rgba(0, 0, 0, .55);
+    border: 0;
+    padding: 10px;
+    width: 100%;
+    float: left;
+    border-right: 10px solid transparent;
+    border-left: 20px solid transparent;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    height: 40px;
+    outline: 0
+}
+
+.flat-mega-menu .search-bar ul input[type=submit] {
+    border: 0;
+    width: 85%;
+    cursor: pointer;
+    font-size: .9em;
+    font-family: "nunito regular";
+    float: left;
+    height: 40px;
+    outline: 0;
+    border: 1px solid rgba(0, 0, 0, .15);
+    opacity: .81;
+    box-shadow: inset .5px .866px 0 0 rgba(255, 248, 68, .106);
+    background: #244E62;
+    color: #fff
+}
+
+.flat-mega-menu .search-bar ul input[type=submit]:hover {
+    opacity: 1;
+    outline: 0
+}
+
+.flat-mega-menu>ul>.title:hover>a {
+    background: inherit;
+    color: inherit!important
+}
+
+.flat-mega-menu .drop-down {
+    position: absolute;
+    background: #fff;
+    z-index: 999;
+    margin-left: 0;
+    float: left;
+    width: 150px;
+    border: 1px solid rgba(0, 0, 0, .1);
+    border-top: none;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-bottom: 3px solid;
+    border-bottom-color: #244E62
+}
+
+.flat-mega-menu .drop-down .drop-down {
+    border-top: 1px solid rgba(0, 0, 0, .1);
+    left: 100%;
+    top: -10px;
+    width: 150px
+}
+
+.flat-mega-menu .drop-down li {
+    float: left;
+    width: 100%;
+    position: relative
+}
+
+.flat-mega-menu .drop-down li a {
+    color: #555658;
+    font-size: .9em;
+    text-align: left;
+    padding: 10px 20px 10px 25px;
+    background-color: #fff;
+    transition: color .2s linear 0s, padding-left .2s linear 0s;
+    -moz-transition: color .2s linear 0s, padding-left .2s linear 0s;
+    -ms-transition: color .2s linear 0s, padding-left .2s linear 0s;
+    -o-transition: color .2s linear 0s, padding-left .2s linear 0s;
+    -webkit-transition: color .2s linear 0s, padding-left .2s linear 0s
+}
+
+.flat-mega-menu .drop-down li:hover>a {
+    color: #000;
+    padding-left: 30px
+}
+
+.flat-mega-menu ul li .drop-down li:hover>.drop-down,
+.flat-mega-menu>ul>li:hover .drop-down {
+    display: block
+}
+
+.flat-mega-menu>input,
+.flat-mega-menu>label,
+.flat-mega-menu>ul>li .drop-down.hover-expand,
+.flat-mega-menu>ul>li .drop-down.hover-fade,
+.flat-mega-menu>ul>li .drop-down.hover-zoom {
+    display: none
+}
+
+.flat-mega-menu>ul>li .drop-down li:hover>.drop-down.hover-fade,
+.flat-mega-menu>ul>li:hover>.drop-down.hover-fade {
+    display: block;
+    animation: hover-fade .3s linear 0s forwards;
+    -moz-animation: hover-fade .3s linear 0s forwards;
+    -ms-animation: hover-fade .3s linear 0s forwards;
+    -o-animation: hover-fade .3s linear 0s forwards;
+    -webkit-animation: hover-fade .3s linear 0s forwards
+}
+
+.flat-mega-menu>ul>li .drop-down li:hover>.drop-down.hover-zoom,
+.flat-mega-menu>ul>li:hover>.drop-down.hover-zoom {
+    display: block;
+    animation: hover-zoom .2s linear 0s forwards;
+    -moz-animation: hover-zoom .2s linear 0s forwards;
+    -ms-animation: hover-zoom .2s linear 0s forwards;
+    -o-animation: hover-zoom .2s linear 0s forwards;
+    -webkit-animation: hover-zoom .2s linear 0s forwards
+}
+
+.flat-mega-menu>ul>li .drop-down li:hover>.drop-down.hover-expand,
+.flat-mega-menu>ul>li:hover>.drop-down.hover-expand {
+    display: block;
+    animation: hover-expand .2s linear 0s forwards;
+    -moz-animation: hover-expand .2s linear 0s forwards;
+    -ms-animation: hover-expand .2s linear 0s forwards;
+    -o-animation: hover-expand .2s linear 0s forwards;
+    -webkit-animation: hover-expand .2s linear 0s forwards
+}
+
+.flat-mega-menu .drop-down li i {
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    right: 20px;
+    bottom: 0;
+    height: 16px;
+    margin: auto;
+    color: #555658
+}
+
+.flat-mega-menu .drop-down.one-column {
+    width: 230px
+}
+
+.flat-mega-menu .drop-down .drop-down.one-column {
+    width: 200px
+}
+
+.flat-mega-menu .drop-down.two-column {
+    width: 322px
+}
+
+.flat-mega-menu .drop-down.two-column ul {
+    float: left;
+    width: 160px;
+    margin: 0;
+    padding: 0
+}
+
+.flat-mega-menu .drop-down.full-width {
+    width: 100%;
+    margin-left: 0;
+    left: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.flat-mega-menu .drop-down.full-width ul {
+    float: left;
+    width: 25%;
+    cursor: default
+}
+
+.flat-mega-menu .drop-down.full-width ul li {
+    margin: 0;
+    padding: 10px 0;
+    float: left;
+    width: 100%
+}
+
+.flat-mega-menu .drop-down.full-width ul li a {
+    border: 0;
+    padding: 0;
+    float: left;
+    margin: 0 10%;
+    transition: text-indent .2s linear 0s;
+    -moz-transition: text-indent .2s linear 0s;
+    -ms-transition: text-indent .2s linear 0s;
+    -o-transition: text-indent .2s linear 0s;
+    -webkit-transition: text-indent .2s linear 0s
+}
+
+.flat-mega-menu .drop-down.full-width ul li:hover a {
+    text-indent: 5px
+}
+
+.flat-mega-menu .drop-down.full-width ul li p {
+    margin: 0;
+    padding: 10px 10px 10px 11%;
+    float: left;
+    width: 100%;
+    clear: both;
+    font-size: .9em;
+    color: #949598
+}
+
+.flat-mega-menu .drop-down.social-bar {
+    width: 200px
+}
+
+.flat-mega-menu hr {
+    margin: 0;
+    padding: 0;
+    display: block
+}
+
+.flat-mega-menu img {
+    width: 100%;
+    float: left;
+    border-style: solid;
+    border-width: 4px;
+    border-color: #fff;
+    background-color: #ebebeb;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0, .078), inset 0 0 76px 0 rgba(0, 0, 0, .039)
+}
+
+.flat-mega-menu img:hover {
+    opacity: .8
+}
+
+.flat-mega-menu h2 {
+    color: #535456;
+    font-size: 1.2em;
+    font-weight: 400;
+    margin: 0;
+    padding: 15px 5px 10px 10%
+}
+
+.fa-ul>li,
+.flat-mega-menu .social-bar {
+    position: relative
+}
+
+.flat-mega-menu .social-bar ul {
+    width: 262px;
+    padding: 10px;
+    position: absolute;
+    background-color: #fff;
+    border-bottom: 3px solid;
+    border-bottom-color: #244E62;
+    right: 0
+}
+
+.flat-mega-menu .social-bar ul li {
+    float: left;
+    width: 40px;
+    height: 40px;
+    margin: 10px;
+    padding: 0
+}
+
+.flat-mega-menu .social-bar ul a {
+    margin: 0;
+    padding: 0;
+    display: block;
+    height: 40px;
+    width: 40px;
+    position: relative
+}
+
+.flat-mega-menu .social-bar ul a i {
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    height: 40px;
+    width: 40px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: 1px solid rgba(0, 0, 0, .1);
+    line-height: 40px;
+    color: #797979;
+    font-size: 1.3em;
+    border-radius: 4px;
+}
+
+.flat-mega-menu .social-bar ul a:hover i {
+    background: #c7c7c7;
+    color: #000
+}
+
+@media screen and (max-width:768px) {
+    .flat-mega-menu>ul>li {
+        width: 100%;
+        border-left: none!important;
+        border-right: none!important;
+        border-bottom: 1px solid;
+        border-bottom-color: #db1010
+    }
+    .flat-mega-menu>ul>.login-form:hover,
+    .flat-mega-menu>ul>.search-bar:hover,
+    .flat-mega-menu>ul>li:hover>a {
+        color: rgb(211, 7, 0)!important;
+        background: inherit
+    }
+    .flat-mega-menu>ul>.title a {
+        text-align: center
+    }
+    .flat-mega-menu .drop-down.full-width {
+        left: 0!important
+    }
+    .flat-mega-menu .drop-down.one-column,
+    .flat-mega-menu .drop-down.two-column {
+        left: 0
+    }
+    .flat-mega-menu .drop-down .drop-down,
+    .flat-mega-menu .drop-down.full-width,
+    .flat-mega-menu .drop-down.one-column,
+    .flat-mega-menu .drop-down.two-column,
+    .flat-mega-menu .login-form ul,
+    .flat-mega-menu .search-bar ul,
+    .flat-mega-menu .social-bar ul {
+        width: 100%!important;
+        display: block!important;
+        position: relative;
+        transform: scale(1, 1), rotateY(90deg);
+        -moz-transform: scale(1, 1), rotateY(90deg);
+        -ms-transform: scale(1, 1), rotateY(90deg);
+        -o-transform: scale(1, 1), rotateY(90deg);
+        -webkit-transform: scale(1, 1), rotateY(90deg)
+    }
+    .flat-mega-menu .drop-down .drop-down,
+    .flat-mega-menu .login-form ul,
+    .flat-mega-menu .search-bar ul,
+    .flat-mega-menu .social-bar ul {
+        left: 0
+    }
+    .flat-mega-menu .drop-down .drop-down {
+        border: 0;
+        border-top: 1px solid #e8e8e8;
+        border-bottom: 1px solid #e8e8e8;
+        top: 0;
+        padding: 0
+    }
+    .flat-mega-menu .drop-down .drop-down.one-column {
+        padding-left: 20px
+    }
+    .flat-mega-menu>ul>li .drop-down.hover-expand,
+    .flat-mega-menu>ul>li .drop-down.hover-fade,
+    .flat-mega-menu>ul>li .drop-down.hover-zoom {
+        display: none;
+        border: 0
+    }
+    .flat-mega-menu>ul>li .drop-down li:hover>.drop-down.hover-expand,
+    .flat-mega-menu>ul>li .drop-down li:hover>.drop-down.hover-fade,
+    .flat-mega-menu>ul>li .drop-down li:hover>.drop-down.hover-zoom,
+    .flat-mega-menu>ul>li:hover>.drop-down.hover-expand,
+    .flat-mega-menu>ul>li:hover>.drop-down.hover-fade,
+    .flat-mega-menu>ul>li:hover>.drop-down.hover-zoom {
+        display: block;
+        animation: hover-default .2s linear 0s forwards;
+        -moz-animation: hover-default .2s linear 0s forwards;
+        -ms-animation: hover-default .2s linear 0s forwards;
+        -o-animation: hover-default .2s linear 0s forwards;
+        -webkit-animation: hover-default .2s linear 0s forwards
+    }
+    .flat-mega-menu ul .login-form,
+    .flat-mega-menu ul .search-bar {
+        margin: 0;
+        padding: 0
+    }
+    .flat-mega-menu ul .login-form label {
+        text-align: left;
+        text-indent: 10px
+    }
+    .flat-mega-menu ul .login-form table td {
+        cursor: default
+    }
+    .flat-mega-menu .drop-down.full-width ul,
+    .flat-mega-menu .drop-down.two-column ul {
+        width: 50%
+    }
+    .flat-mega-menu .drop-down.one-column a,
+    .flat-mega-menu .drop-down.two-column a {
+        width: auto;
+        float: left
+    }
+    .flat-mega-menu ul .social-bar {
+        text-align: center
+    }
+    .flat-mega-menu ul .social-bar ul li {
+        display: inline-block;
+        float: none
+    }
+    .flat-mega-menu .drop-down li .fa.fa-angle-right {
+        position: relative;
+        z-index: 9999;
+        right: 0;
+        float: right;
+        height: auto;
+        color: #555658;
+        padding: 0;
+        margin: 0 17px 0 0;
+        display: block;
+        line-height: 38px;
+        transform: rotate(90deg);
+        -webkit-transform: rotate(90deg);
+        -ms-transform: rotate(90deg);
+        -moz-transform: rotate(90deg);
+        -o-transform: rotate(90deg)
+    }
+    .flat-mega-menu #mobile-button {
+        position: absolute;
+        display: none
+    }
+    .flat-mega-menu>ul {
+        height: 60px;
+        overflow: hidden
+    }
+    .flat-mega-menu #mobile-button:checked+ul {
+        height: auto;
+        overflow: visible
+    }
+    .flat-mega-menu>label {
+        width: 60px;
+        height: 60px;
+        background-color: rgba(0, 0, 0, .1);
+        display: block;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        top: 0;
+        left: 0;
+        text-align: center;
+        line-height: 60px;
+        font-size: 2em;
+        color: #fff;
+        cursor: pointer
+    }
+    .flat-mega-menu>label i {
+        -ms-user-select: none;
+        -moz-user-select: none;
+        -o-user-select: none;
+        -webkit-user-select: none
+    }
+    .flat-mega-menu ul .title {
+        padding-left: 60px
+    }
+    .flat-mega-menu .collapse .drop-down .drop-down,
+    .flat-mega-menu .collapse .drop-down.full-width,
+    .flat-mega-menu .collapse .drop-down.one-column,
+    .flat-mega-menu .collapse .drop-down.two-column,
+    .flat-mega-menu .collapse .login-form ul,
+    .flat-mega-menu .collapse .search-bar ul,
+    .flat-mega-menu .collapse .social-bar ul {
+        width: 100%!important;
+        display: none!important;
+        position: relative;
+        left: 0;
+        transform: scale(1, 1), rotateY(90deg);
+        -moz-transform: scale(1, 1), rotateY(90deg);
+        -ms-transform: scale(1, 1), rotateY(90deg);
+        -o-transform: scale(1, 1), rotateY(90deg);
+        -webkit-transform: scale(1, 1), rotateY(90deg)
+    }
+    /*bouton*/
+    div#bouton2 {
+        width: 5%;
+        margin: 10px 10% 10px 2%;
+    }
+    div#bouton1 {
+        width: 5%;
+        margin: 10px 50% 10px 2%;
+    }
+    div#bouton3 {
+        width: 5%;
+        margin: 10px 50% 10px 2%;
+    }
+    div#bouton4 {
+        width: 5%;
+        margin: 10px 50% 10px 2%;
+    }
+    div#bouton5 {
+        width: 5%;
+        margin: 10px 50% 10px 2%;
+    }
+    div#bouton6 {
+        width: 5%;
+        margin: 10px 50% 10px 2%;
+    }
+    div#bouton7 {
+        width: 5%;
+        margin: 10px 50% 10px 2%;
+    }
+    div#bouton8 {
+        width: 5%;
+        margin: 10px 50% 10px 2%;
+    }
+    div#bouton9 {
+        width: 5%;
+        margin: 10px 50% 10px 2%;
+    }
+    div#bouton10 {
+        width: 5%;
+        margin: 10px 50% 10px 2%;
+    }
+}
